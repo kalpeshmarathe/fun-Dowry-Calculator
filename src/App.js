@@ -2,6 +2,7 @@ import React, { useState, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { getDowryAssessment } from "./components/gemini";
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
+import { Analytics } from "@vercel/analytics/react"
 
 const App = () => {
   const [formData, setFormData] = useState({
