@@ -264,7 +264,7 @@ const App = () => {
                   {loading ? (
                     <span className="button-loading">
                       <span className="spinner"></span>
-                      Calculating Groom's Net Worth...
+                      Calculating Groom's Value...
                     </span>
                   ) : (
                     <span className="button-content">
