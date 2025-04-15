@@ -1,5 +1,6 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
+
 const genAI = new GoogleGenerativeAI("AIzaSyBqCyyzvHwKZffW4U0xjUPie7bnc_u7GG8");
 
 // const genAI = "AIzaSyCfRo-JLea7s9YDXTGd6xAcrv2I_rVoQ_s";

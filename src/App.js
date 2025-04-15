@@ -552,7 +552,7 @@ const App = () => {
         }
         
         .form-input {
-          width: 100%;
+          width: 95%;
           padding: 0.75rem 1rem;
           border: 2px solid rgba(255, 107, 107, 0.25);
           border-radius: 0.75rem;
