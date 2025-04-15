@@ -1,0 +1,58 @@
+/* Base styles */
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+  
+  /* Form input focus effect */
+  input:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(244, 63, 94, 0.2);
+    border-color: #f43f5e !important;
+  }
+  
+  /* Money animation */
+  @keyframes moneyFloat {
+    0%, 100% { transform: translateY(0) rotate(-5deg); }
+    50% { transform: translateY(-8px) rotate(5deg); }
+  }
+  
+  .money-float {
+    animation: moneyFloat 3s ease-in-out infinite;
+  }
+  
+  /* Shake animation for errors */
+  @keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    20%, 60% { transform: translateX(-5px); }
+    40%, 80% { transform: translateX(5px); }
+  }
+  
+  .shake {
+    animation: shake 0.5s cubic-bezier(.36,.07,.19,.97) both;
+  }
+  
+  /* Gradient text for emphasis */
+  .gradient-text {
+    background: linear-gradient(45deg, #f43f5e, #f59e0b);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #fff1f2;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #fb7185;
+    border-radius: 4px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #f43f5e;
+  }
